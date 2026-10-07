@@ -1,0 +1,20 @@
+project:
+  name: "Vantara Customer Behavior Prediction Platform"
+  random_seed: 42
+
+data:
+  uci_dataset_id: 502
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+
+validation:
+  required_columns:
+    - Invoice
+    - StockCode
+    - Description
+    - Quantity
+    - InvoiceDate
+    - Price
+    - Customer ID
+    - Country
