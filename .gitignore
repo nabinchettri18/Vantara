@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Data artifacts
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Model artifacts
+models_artifacts/*
+
+# Local reports
+*.log
+.coverage
+.pytest_cache/
